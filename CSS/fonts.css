@@ -1,0 +1,65 @@
+/* CONTENTS
+SIZE............
+COLORS..........
+*/
+
+/* #TYPE AND SIZE */
+
+h1, h2, h3, h4 {
+    font: size 48px;;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+ul{
+    font-size: large;
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+/* #COLORS */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* text-decoration-color: #7ec6a8; */
+    /* text-decoration-thickness: 3px; */
+
+    font-size: large;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+p {
+    color: darkgray;
+}
+
+#section3 {
+    color: darkgray;
+}
+
+ul {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+.link {
+    position: relative;
+    display: inline-block;
+  }
+
+  .link::after { 
+    display: block;
+    content: '';
+    margin-top: 6px;
+    height: 2px;
+    background-color: #7ec6a8;
+  }

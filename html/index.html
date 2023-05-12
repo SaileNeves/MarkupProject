@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Dogwish Corp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Wix+Madefor+Display:wght@700&display=swap">
+
+    <link rel="stylesheet" href="../CSS/positioning.css">
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dogwish Corp</h1>
+        <nav>
+            <a class="link" href="#section1"> About us</a>
+            <a class="link" href="#section2"> Our Team</a>
+            <a class="link" href="#section4"> Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>About Us</h2>
+            <p class="text">A dude teching coding and another dude learning</p><br>
+            <a class="link" href="#section4"> Contact Us</a>
+        </section>
+        <section id="section2">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Acessibility</li>
+            </ul>
+        </section>
+        <section id="section3">
+            <div id="section3-header">
+                <h2>Our Team</h2>
+                <a class="link" href="#section4"> Contact Us</a>
+            </div>
+            <div id="section3-content">
+                <img src="../reference/2.jpg" alt="">
+                <h3>Patrick</h3>
+                <p>Teaching dude</p>
+
+                <img src="../reference/1.jpg" alt="">
+                <h3>Saile</h3>
+                <p>Learning dude</p>
+            </div>
+        </section>
+
+        <Section id="section4">
+            <h2>Contact</h2>
+            <p class="text">We would love to hear about your project and how we could help.Please fill in the form, and
+                we'll get back to you as soon as possible.</p>
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="87a077f3-dec7-4dfc-91de-359fc39c8dff">
+                <fieldset>
+                    <label style="display: none" for="name">Name</label><br>
+                    <input class="form-input" type="text" id="name" name="name" placeholder="Name" required><br>
+                    <label style="display: none" for="company-name">Company Name</label><br>
+                    <input class="form-input" type="text" id="company-name" name="company-name"
+                        placeholder="Company Name" required><br>
+                    <label style="display: none" for="email">Email Adress</label><br>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="Email" required><br>
+                    <label style="display: none" for="message">Message</label><br>
+                    <textarea class="form-input" id="message" name="message" placeholder="Message" rows="6"
+                        required></textarea><br><br>
+                    <input class="link" id="msg-btn" type="submit" value="Send Message">
+                </fieldset>
+                </div>
+            </form>
+        </Section>
+    </main>
+    <footer>
+        <h2>Dogwish Corp</h2>
+
+    </footer>
+    <script src="../Javascript/ovalCreation.js"></script>
+</body>
+
+</html>
